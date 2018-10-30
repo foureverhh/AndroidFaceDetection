@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.btn_process);
 
         final Bitmap bitmap =  BitmapFactory.decodeResource(getApplicationContext().getResources()
-                ,R.drawable.tom);
+                ,R.drawable.fam);
         imageView.setImageBitmap(bitmap);
 
         //Made a rect frame by rectPaint
